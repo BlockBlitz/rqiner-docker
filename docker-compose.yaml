@@ -1,0 +1,8 @@
+services:
+  rquiner:
+    image: ghcr.io/blockblitz/rqiner:latest
+    environment: 
+      ARCHITECTURE: none
+      NUM_THREADS: 4
+      WALLET_ADDRESS: my-wallet
+      WORKER_NAME: my-worker
