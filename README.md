@@ -15,6 +15,7 @@ The following environment variables are required:
 | WORKER_NAME    | Your worker name/label visible in the pool                       |                                                                          |         | 
 
 The following command starts the rqiner container with the specified parameters
+
 `docker run ghcr.io/BlockBlitz/rqiner:latest -e ARCHITECTIRE=none -e NUM_THREADS=my-thread-count -e WALLET_ADDRESS=my-wallet-address -e WORKER_NAME=my-worker`
 
 Or more favorably, via the included docker-compose file.
