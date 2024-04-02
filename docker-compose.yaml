@@ -1,6 +1,7 @@
 services:
   rquiner:
     image: ghcr.io/blockblitz/rqiner:latest
+    restart: unless-stopped
     environment: 
       ARCHITECTURE: none
       NUM_THREADS: 4
