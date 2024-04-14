@@ -1,5 +1,7 @@
 # Rquiner Docker
 
+***Maintinance of this container has been moved to the [BlockBlitz Miners-Docker](https://github.com/BlockBlitz/miners-docker) Repo. This repo will be deleted on or around May 14th 2024.***
+
 This Dockerfile and run script are all you need to run rquiner locally.
 
 ***This project is not affiliated with [Qubic](http://discord.gg/qubic) or [QubicSolutions](https://qubic.solutions/). Please report any bugs related to the docker container here and miner specific bugs to the respective miner owners.***
